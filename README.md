@@ -555,3 +555,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 Made with ❤️ for Security Education
+
+
+## Maintainers
+
+For questions about this demo fork, open an issue. (doc-only note added 2026-07-10)
