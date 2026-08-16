@@ -704,7 +704,7 @@ def upload_profile_picture_url(current_user):
         # - SSL verification disabled
         # - Follows redirects
         # - No content-type or size validation
-        resp = requests.get(image_url, timeout=10, allow_redirects=True, verify=False)
+        resp = requests.get(image_url, timeout=10, allow_redirects=True, verify=True)
         if resp.status_code >= 400:
             return jsonify({'status': 'error', 'message': f'Failed to fetch URL: HTTP {resp.status_code}'}), 400
 
